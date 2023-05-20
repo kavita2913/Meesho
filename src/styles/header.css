@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navabr {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 5px 5px 5px rgb(180, 174, 174);
+}
+
+.navabr h1 {
+    font-size: 40px;
+    color: rgb(244, 51, 151);
+    margin: 15px 0px 0px 110px;
+
+}
+
+.navabr input {
+    height: 47px;
+    width: 30%;
+    margin: 16px 0px 0px 16px;
+}
+
+.navabr a  {
+    color: black;
+    margin: 28px 10px 0px 28px;
+    text-decoration: none;
+}
+
+.profileIcon {
+    font-size: 27px;
+    margin: 18px 23px 0px 30px;
+}
+
+.profilepara {
+    font-size: 15px;
+    margin-left: -6px;
+}
+
+
+.cartIcon {
+    font-size: 25px;
+    margin: 24px 15px 0px 25px;
+
+}
+
+.cartIcon .cartpara {
+    font-size: 17px;
+    margin-top: -5px;
+}
+
+.logoutBtn {
+    height: 40px;
+    width: 5%;
+    margin: 20px 0px 0px 10px;
+    background-color: rgb(244, 51, 151);
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.userName {
+    font-size: 15px;
+    margin: 0px -20px 0px -10px;
+}
+
+.cartButtton {
+    height: 40px;
+    width: 8%;
+    border: 0;
+    background-color: #fff;
+}
+.divAfterNavs{
+    height: 60px;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+
+}
+.divAfterNavs a{
+   margin: 20px 0px 0px 140px;
+    text-decoration: none;
+    color: black;
+}
+.lowestPrice{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+.lowestPrice h1{
+    font-size: 38px;
+    margin: 40px 80px 0px 50px;
+}
+.lowestPrice button{
+    height: 50px;
+    width: 69%;
+    border: 0;
+    background-color:  rgb(244, 51, 151) ;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+  margin: 10px 0px 0px 60px;
+
+}
+.lowestPrice button a{
+    color: #fff;
+  text-decoration: none;
+
+}
+.delivery{
+    height: 60px;
+    display: flex;
+    width: 90%;
+    margin: 10px 0px 0px 20px;
+    font-size: 13px;
+    background-color: #fff;
+    
+}
+.lowestLeft{
+    height: 350px;
+    width: 35%;
+    margin: 30px 0px 0px 220px;
+    background-color: #fff8f8;
+
+
+}
+
+.deliveyIcon{
+    height: 40px;
+    width: 40px;
+}
+.cod{
+    height: 40px;
+    width: 40px;
+}
+.easy{
+    height: 40px;
+    width: 40px;
+}
+.lowestRight{
+    height: 200px;
+    width: 28%;
+    margin: 100px 0px 0px 0px;
+
+}
+.lowestRight img{
+    height: 250px;
+    width: 100%;
+}
+
+.proforyou{
+    height: 70px;
+    width: 100%;
+}
+.proforyou h1{
+    margin: 0px 0px 0px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navabr {
+        width: 95vh;
+    }
+    .navabr h1{
+        font-size: 25px;
+    margin: 15px 0px 0px 30px;
+
+    }
+    .navabr a p{
+        display: none;
+    }
+    .navabr input{
+        width: 65%;
+       margin: 16px 5px 5px 16px;
+       height: 40px;
+
+    }
+    .profileIcon{
+        font-size: 23px;
+        margin: 15px 0px 10px -50px;
+    }
+    .hidingDiv{
+        display: none;
+    }
+    
+
+
+.divAfterNavs{
+    display: none;
+}
+}
+@media only screen and (max-width: 400px) {
+    .navabr {
+        width: 90vh;
+    }
+    
+}
+@media only screen and (max-width: 350px) {
+    .navabr {
+        width: 93vh;
+    }
+
+}
+@media only screen and (max-width: 300px) {
+    .navabr {
+        width: 95vh;
+    }
+}
